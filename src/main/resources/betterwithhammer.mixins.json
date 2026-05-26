@@ -1,10 +1,11 @@
 {
   "required": true,
-  "package": "turniplabs.examplemod.mixin",
+  "package": "mamaballoon.betterwithhammer",
   "compatibilityLevel": "JAVA_${java}",
   "injectors": {
     "defaultRequire": 1
   },
-  "mixins": [],
+  "mixins": [
+  ],
   "client": []
 }

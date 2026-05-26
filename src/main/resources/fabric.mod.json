@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "examplemod",
+	"id": "betterwithhammer",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This mod aims to help new BTA modders.",
+	"name": "Better With Hammer",
+	"description": "This mod adds the hammer, a useful crafting item.",
 	"authors": [
-		"Turnip Labs"
+		"mama_balloon"
 	],
 	"contact": {
 		"homepage": "",
@@ -16,20 +16,17 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"turniplabs.examplemod.ExampleMod"
-		],
+			"mamaballoon.betterwithhammer.BetterWithHammer"],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
+			"mamaballoon.betterwithhammer.BetterWithHammer"],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
+			"mamaballoon.betterwithhammer.BetterWithHammer"],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
-		]
+			"mamaballoon.betterwithhammer.BetterWithHammer"],
+		"initModels": [
+			"mamaballoon.betterwithhammer.Texturing"]
 	},
 	"mixins": [
-		"examplemod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${fabricloader}",
