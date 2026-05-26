@@ -19,3 +19,4 @@
 # Notes:
 - DM mama_balloon on discord for recipe suggestions or other mod-related issues.
 - This mod is still in development. Expect bugs!
+- This mod was made with modpacks in mind! Feel free to redistribute or otherwise modify this mod.
