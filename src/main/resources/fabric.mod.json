@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "betterwithhammer",
-	"version": "${version}",
+	"version": "1.0.1",
 	"name": "Better With Hammer",
-	"description": "This mod adds the hammer, a useful crafting item.",
+	"description": "This mod adds hammers.",
 	"authors": [
 		"mama_balloon"
 	],

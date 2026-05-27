@@ -93,7 +93,7 @@ public class RecipeList {
 			Items.SULFUR,
 			2,
 			4
-		);
+		);/*
 		SledgeHammerRecipe sulfur_from_hardened = new SledgeHammerRecipe(
 			"sulfur_from_hardened",
 			Blocks.SULFUR_HARDENED,
@@ -106,6 +106,7 @@ public class RecipeList {
 			Blocks.SULFUR_HARDENED,
 			Blocks.SULFUR
 		);
+		*/
 		SledgeHammerRecipe pebbles_from_dirt = new SledgeHammerRecipe(
 			"pebbles_from_dirt",
 			Blocks.DIRT,
