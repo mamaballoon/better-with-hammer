@@ -15,6 +15,7 @@ public class HammerItems {
 	}
 	public static Item HAMMER;
 	public static Item SLEDGEHAMMER;
+	public static Item FIXHAMMER;
 
 	private static boolean hasInit = false;
 	public static void Init(){
@@ -33,6 +34,9 @@ public class HammerItems {
 			.build(new ItemToolHammer(MOD_ID + ".tool.hammer",itemNSID("hammer"),newItemID(),ToolMaterial.iron));
 		SLEDGEHAMMER = new ItemBuilder(MOD_ID)
 			.setCreativeInventoryPlacement(new CreativeInventoryPlacement.Category(CreativeInventoryCategory.MISC_TOOLS))
-			.build(new ItemToolSledgeHammer(MOD_ID + ".tool.sledgehammer",itemNSID("sledgehammer"),newItemID(),ToolMaterial.iron));
+			.build(new ItemToolSledgeHammer(MOD_ID + ".tool.sledgehammer",itemNSID("sledgehammer"),newItemID(),ToolMaterial.steel));
+		FIXHAMMER = new ItemBuilder(MOD_ID)
+			.setCreativeInventoryPlacement(new CreativeInventoryPlacement.Category(CreativeInventoryCategory.MISC_TOOLS))
+			.build(new ItemToolFixingHammer(MOD_ID + ".tool.fixhammer",itemNSID("fixhammer"),newItemID(),ToolMaterial.diamond));
 	}
 }

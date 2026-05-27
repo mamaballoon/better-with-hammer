@@ -1,0 +1,9 @@
+v1.0.0 - initial release
+
+v1.0.1 - 8.0 pre-2 hotfix
+
+v1.1.0 -
+	- recipe changes, mostly less pebble recipes
+	- diamond hammer added, which reverses iron hammer recipes
+	- steel hammer now also does iron hammer recipes
+	- sound changes to make more sense

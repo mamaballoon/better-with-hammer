@@ -2,3 +2,6 @@ item.betterwithhammer.tool.hammer.name=Iron Hammer
 item.betterwithhammer.tool.hammer.desc=Lightly weathers blocks for decorative purposes. Fancy!
 item.betterwithhammer.tool.sledgehammer.name=Steel Hammer
 item.betterwithhammer.tool.sledgehammer.desc=Demolishes weathered blocks. Groundbreaking!
+item.betterwithhammer.tool.fixhammer.name=Diamond Hammer
+item.betterwithhammer.tool.fixhammer.desc=Fixes weathered blocks. Magical!
+

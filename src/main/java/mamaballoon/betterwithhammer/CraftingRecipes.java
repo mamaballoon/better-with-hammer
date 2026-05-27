@@ -21,6 +21,10 @@ public class CraftingRecipes implements RecipeEntrypoint {
 		HammerTemplate
 			.addInput('X', Blocks.BLOCK_STEEL)
 			.create("sledgehammer", new ItemStack(HammerItems.SLEDGEHAMMER,1));
+
+		HammerTemplate
+			.addInput('X', Blocks.BLOCK_DIAMOND)
+			.create("fixhammer", new ItemStack(HammerItems.FIXHAMMER,1));
 	}
 
 	@Override

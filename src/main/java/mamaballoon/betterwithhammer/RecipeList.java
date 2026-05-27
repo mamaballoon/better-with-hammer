@@ -93,26 +93,20 @@ public class RecipeList {
 			Items.SULFUR,
 			2,
 			4
-		);/*
-		SledgeHammerRecipe sulfur_from_hardened = new SledgeHammerRecipe(
-			"sulfur_from_hardened",
-			Blocks.SULFUR_HARDENED,
-			Items.SULFUR,
-			2,
-			4
 		);
-		HammerRecipe sulfurblock = new HammerRecipe(
-			"sulfurblock",
-			Blocks.SULFUR_HARDENED,
-			Blocks.SULFUR
-		);
-		*/
-		SledgeHammerRecipe pebbles_from_dirt = new SledgeHammerRecipe(
-			"pebbles_from_dirt",
+		SledgeHammerRecipe dirt_from_dirt = new SledgeHammerRecipe(
+			"dirt_from_dirt",
 			Blocks.DIRT,
-			Items.AMMO_PEBBLE,
-			2,
-			4
+			Blocks.DIRT,
+			1,
+			1
+		);
+		SledgeHammerRecipe sand_from_sand = new SledgeHammerRecipe(
+			"sand_from_sand",
+			Blocks.SAND,
+			Blocks.SAND,
+			1,
+			1
 		);
 		HammerRecipe dirt = new HammerRecipe(
 			"dirt",

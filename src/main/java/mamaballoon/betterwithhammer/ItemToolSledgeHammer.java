@@ -35,6 +35,14 @@ public class ItemToolSledgeHammer extends Item implements IItemConvertible {
 				return true;
 			}
 		}
+		for (HammerRecipe currentRecipe : HammerRecipe.HammerRecipes) {
+			if (currentRecipe.inputBlock == world.getBlockType(blockPos)) {
+				world.setBlockTypeNotify(blockPos, currentRecipe.outputBlock);
+				selfStack.damageItem(1,player);
+				world.playBlockSoundEffect(player, blockPos.x(), blockPos.y(), blockPos.z(), currentRecipe.outputBlock, EnumBlockSoundEffectType.MINE);
+				return true;
+			}
+		}
 		return false;
 	}
 }

@@ -18,6 +18,7 @@ public class Texturing implements ModelEntrypoint{
 	@Override
 	public void initItemModels(ItemModelDispatcher dispatcher) {
 		dispatcher.addDispatch(new ItemModelStandard(HammerItems.HAMMER,null).setIcon("betterwithhammer:item/hammer"));
+		dispatcher.addDispatch(new ItemModelStandard(HammerItems.FIXHAMMER,null).setIcon("betterwithhammer:item/fixhammer"));
 		dispatcher.addDispatch(new ItemModelStandard(HammerItems.SLEDGEHAMMER,null).setIcon("betterwithhammer:item/sledgehammer"));
 	}
 
