@@ -8,7 +8,7 @@ import turniplabs.halplibe.helper.creativeInventory.CreativeInventoryCategory;
 import turniplabs.halplibe.helper.creativeInventory.CreativeInventoryPlacement;
 
 public class HammerItems {
-	public static int StartID = 1920;
+	public static int StartID = 19200;
 	private static final String MOD_ID = BetterWithHammer.MOD_ID;
 	public static int newItemID(){
 		return StartID++;

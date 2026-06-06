@@ -28,4 +28,5 @@ public class ItemToolFixingHammer extends Item {
 		}
 		return false;
 	}
+
 }
